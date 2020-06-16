@@ -7,8 +7,12 @@ import java.nio.channels.FileChannel;
 import java.nio.file.StandardOpenOption;
 
 public class BaseTest {
+    /**
+     * file structure: {numbers of row} ... {[row]}
+     * row structure: {numbers of name bytes(int)} ... {name} ... {year(int)} ... {value(long)}
+     */
     @Test
-    public void creatorData() throws IOException {
+    public void creatorData() {
         createData();
     }
 
