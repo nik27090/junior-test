@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
         if (args.length < 3) {
             System.out.println("Error! Invalid number of arguments.");
-            return;
+            System.exit(1);
         }
 
         int startYear = 0;
