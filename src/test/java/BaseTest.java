@@ -22,9 +22,9 @@ public class BaseTest {
             ByteBuffer countRowBB = ByteBuffer.allocate(Long.BYTES).putLong(countRow).rewind();
             fileChannel.write(countRowBB);
 
-            fillData(fileChannel, countRow/3, 0, 0);
-            fillData(fileChannel, countRow/3, 1, 1);
-            fillData(fileChannel, countRow/3, 1, 0);
+            fillData(fileChannel, countRow / 3, 0, 0);
+            fillData(fileChannel, countRow / 3, 1, 1);
+            fillData(fileChannel, countRow / 3, 1, 0);
         } catch (IOException e) {
             e.printStackTrace();
         }

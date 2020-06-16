@@ -16,7 +16,7 @@ public class Main {
      * @param args args[0] - starting year, args[1] - ending year,  args[3] - name app, args[4] - name app, etc
      */
     public static void main(String[] args) {
-        if (args.length < 3){
+        if (args.length < 3) {
             System.out.println("Error! Invalid number of arguments.");
             return;
         }

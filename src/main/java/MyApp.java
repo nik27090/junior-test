@@ -19,9 +19,9 @@ public class MyApp implements DataConnection {
     /**
      * Constructor
      *
-     * @param name application name
+     * @param name      application name
      * @param startYear starting year
-     * @param endYear ending year
+     * @param endYear   ending year
      */
     public MyApp(final String name, final int startYear, final int endYear) {
         this.name = name;
