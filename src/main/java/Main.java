@@ -32,7 +32,7 @@ public class Main {
         }
 
         for (int i = 2; i < args.length; i++) {
-            final MyApp app = new MyAppFactory().create(args[i], startYear, endYear);
+            final AppStatistic app = new AppStatisticFactory().create(args[i], startYear, endYear);
 
             try {
                 app.loadData();

@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-public class MyApp implements DataConnection {
+public class AppStatistic implements DataConnection {
     private static final String SUFFIX = ".txt";
     private final String name;
     private final int startYear;
@@ -23,7 +23,7 @@ public class MyApp implements DataConnection {
      * @param startYear starting year
      * @param endYear   ending year
      */
-    public MyApp(final String name, final int startYear, final int endYear) {
+    public AppStatistic(final String name, final int startYear, final int endYear) {
         this.name = name;
         this.startYear = startYear;
         this.endYear = endYear;
